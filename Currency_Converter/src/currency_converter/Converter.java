@@ -184,6 +184,7 @@ public class Converter extends javax.swing.JFrame {
 	case "India":amountInPounds = amountToChange/Indian_Rupee;break;
 	case "Philippine":amountInPounds = amountToChange/Philippine_Pisco;break;
 	case "Pakistan":amountInPounds = amountToChange/Pakistani_Rupee;break;
+        case "Tanzanian":amountInPounds = amountToChange/Tanzanian_Shilling;break;
 	default:amountInPounds = 0.0;
         }
 
@@ -200,6 +201,7 @@ public class Converter extends javax.swing.JFrame {
 	case "India":amountChanged = amountInPounds * Indian_Rupee;break;
 	case "Philippine":amountChanged = amountInPounds * Philippine_Pisco;break;
 	case "Pakistan":amountChanged = amountInPounds * Pakistani_Rupee;break;
+	case "Tanzanian":amountChanged = amountInPounds * Tanzanian_Shilling;break;
 	default:amountChanged = amountInPounds * 0.0;
         }
         
