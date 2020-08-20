@@ -10,7 +10,31 @@ package currency_converter;
  * @author User
  */
 public class Converter extends javax.swing.JFrame {
+double US_Dollar = 1.31;
+double Pakistani_Rupee = 162.74;
+double Nigerian_Naira = 476.57;
+double Brazilian_Real = 5.47;
+double Canadian_Dollar = 1.71;
+double Kenyan_Shilling = 132.53;
+double Tanzanian_Shilling = 3038.77;
+double Indonesian_Rupiah = 19554.94;
+double Indian_Rupee = 95.21;
+double Philippine_Pisco = 71.17;
 
+
+String[] currencyUnits = {
+"Units",
+"US Dollar",
+"Nigerian Naira",
+"Brazilian Real",
+"Canadian Dollar",
+"Kenyan Shilling",
+"Tanzanian shilling",
+"Indonesian Rupiah",
+"Indian Rupee",
+"Philippine Pisco",
+"Paskistani Rupee"
+};
     /**
      * Creates new form Converter
      */
